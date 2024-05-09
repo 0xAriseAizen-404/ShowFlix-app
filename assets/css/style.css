@@ -30,7 +30,7 @@
   /* font family */
   --ff-dm-sans: "DM Sans", sans-serif;
   /* font size */
-  --fs-heading: 4rem;
+  --fs-heading: 3rem;
   --fs-title-lg: 2.6rem;
   --fs-title: 2rem;
   --fs-body: 1.8rem;
@@ -682,10 +682,11 @@ body {
 @media (min-width: 575px) {
   .banner-content {
     right: auto;
-    max-width: 550px;
+    max-width: 500px;
+    font-size: medium;
   }
   .slider-control {
-    left: calc(100% - 600px);
+    left: calc(100% - 400px);
   }
   .detail-content {
     max-width: 1000px;
@@ -718,7 +719,7 @@ body {
   .banner-content {
     bottom: 50%;
     transform: translateY(50%);
-    left: 50px;
+    left: 10px;
   }
   .movie-detail {
     display: flex;

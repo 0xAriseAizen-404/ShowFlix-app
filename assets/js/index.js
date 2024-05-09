@@ -84,7 +84,7 @@ fetchDataFromServer(
                   ${vote_average.toFixed(1)}
                 </div>
                 <p class="genre">${genreList.asString(genre_ids)}</p>
-                <p class="banner-text">${overview}</p>
+                <p class="banner-text">${overview.substring(0, 160)}...</p>
                 <a href="../../detail.html" class="btn" onclick="getMovieDetails(${id})">
                   <img
                     src="./assets/images/play_circle.png"
