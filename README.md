@@ -6,7 +6,7 @@ Welcome to ShowFlix, your ultimate destination for all things movies! ShowFlix i
 
 ### Live Demo
 
-Check out ShowFlix live at [Live Demo Site](#)
+Check out ShowFlix live at [Live Demo Site](https://arise-aizen-404.github.io/ShowFlix-app/)
 
 ## Description
 
